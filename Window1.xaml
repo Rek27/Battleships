@@ -1,0 +1,17 @@
+﻿<Window x:Class="Savoprojekat.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Savoprojekat"
+        mc:Ignorable="d"
+        Title="Battleships" Height="292.5" Width="622">
+    <Grid>
+        <Label Content="Battleships" FontSize="30" Foreground="Blue" HorizontalAlignment="Center" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Width="334" Margin="144,10,136,0"/>
+        <Button Name="btn_kreirajIgru" Content="Create a game" FontSize="20" Background="Green" HorizontalAlignment="Left" Margin="10,203,0,0" VerticalAlignment="Top" Width="594" Height="48" Click="btn_kreirajIgru_Click"/>
+        <TextBox Name="tb_ip" HorizontalAlignment="Left" FontSize="20" Height="40" Margin="88,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="307" RenderTransformOrigin="-0.125,0.957"/>
+        <Label HorizontalContentAlignment="Right"  Content="IP:" FontSize="20"  HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Height="40" Width="73"/>
+        <Button Name="btn_PridruziSe" Content="Join game" FontSize="20" Background="Orange" HorizontalAlignment="Left" Margin="428,136,0,0" VerticalAlignment="Top" Width="160" Height="40" Click="btn_PridruziSe_Click"/>
+
+    </Grid>
+</Window>
